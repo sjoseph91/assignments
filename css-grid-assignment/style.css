@@ -1,0 +1,64 @@
+.container1{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas:
+        "r r r r r r b b b b b"
+        "g g g p p p p p p p p"
+        "y y y y y y y y y y y";
+}
+.container1 .red{
+    background-color: red;
+    grid-area: r;
+}
+.container1 .blue{
+    background-color: blue;
+    grid-area: b;
+}
+.container1 .green{
+    background-color: green;
+    grid-area: g;
+}
+.container1 .purple{
+    background-color: purple;
+    grid-area: p;
+}
+.container1 .yellow{
+    background-color: yellow;
+    grid-area: y;
+}
+.spacer{
+    height: 100px;
+}
+
+.container2{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas:
+        "r r r r r r r r r r r r"
+        "b b b b b b g g g g g g"
+        "b b b b b b p p p q q q";
+}
+.container2 .red{
+    background-color: red;
+    grid-area: r;
+}
+.container2 .blue{
+    background-color: blue;
+    grid-area: b;
+}
+.container2 .green{
+    background-color: green;
+    grid-area: g;
+}
+.container2 .purple1{
+    background-color: purple;
+    grid-area: p;
+}
+.container2 .purple2{
+    background-color: purple;
+    grid-area: q;
+}
