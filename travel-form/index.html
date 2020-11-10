@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Form</title>
+</head>
+<body>
+    <h1>Travel Form</h1>
+    <form name="travel-form">
+        <label>First Name<input name="fname" type="text" placeholder="First Name" required></label>
+        <label>Last Name<input name="lname" type="text" placeholder="Last Name" required></label>
+        <label>Age<input name="age"type="number"placeholder="Age"></label>
+        <br>
+        <label>Male<input type="radio"name="gender"value="Male"></label>
+        <label>Female<input type="radio"name="gender"value="Female"></label>
+        <select name="destinations">
+            <option value="Tokyo">Tokyo</option>
+            <option value="New York">New York</option>
+            <option value="Detroit">Detroit</option>
+        </select>
+
+        <label><input type="checkbox" value="Vegetarian"name="diet">Vegetarian</label>
+        <label><input type="checkbox" value="Kosher"name="diet">Kosher</label>
+        <label><input type="checkbox" value="No Preference"name="diet">No preference</label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+<script src="app.js"></script>
+</body>
+</html>
