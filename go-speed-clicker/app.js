@@ -15,14 +15,9 @@ setTimeout(cancel,10000);
 
 function clicker(e){
     e.preventDefault();
-    //removes previous p element
-    document.querySelector("#counter p").remove();
     clickCount++;
-    let newP = document.createElement("p");
-    newP.textContent = `You have clicked ${clickCount} time(s)`;
-    document.getElementById("counter").append(newP);
+    document.querySelector("#counter p").textContent = `You have clicked ${clickCount} time(s)`;
     localStorage.setItem("clicks",clickCount);
-
 }
 
 function cancel(){
