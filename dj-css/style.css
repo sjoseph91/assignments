@@ -1,6 +1,14 @@
 h1{
     text-align: center;
+    color: white;
+    font-size: 40px;
 
+}
+body{
+    background-image: url('https://thewallpaper.co/wp-content/uploads/2020/07/forest-background-trees-tree-hd-nature-wallpapers-view-nature-landscape-free-images-tree-1200x675.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #container{
     display:flex;
