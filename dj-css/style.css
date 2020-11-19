@@ -61,17 +61,15 @@ body{
     box-shadow: 5px 10px #a16e6e; 
 }
 #square4{
-    transition: background-color 1s linear,
-        width 1s linear,
-        height 1s linear,
-        flex-grow 1s linear;
+    background-image: url('https://pbs.twimg.com/profile_images/728328295817699328/--u5om4g.jpg');
+    transition: opacity 1s linear,
+        border 1s linear;
+        
+        
 
 }
 #square4:hover{
-    background-color: blue;
-    width: 500px;
-    height: 500px;
-    flex-grow: 4;
+    opacity: 0.2;
     border: 1px dashed black;
 }
 #square5{

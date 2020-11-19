@@ -1,5 +1,5 @@
 const form = document["travel-form"];
-form.addEventListener("submit", (e)=>{
+form.addEventListener("submit", ()=>{
     e.preventDefault();
     const fName = form.fname.value;
     const lName = form.lname.value;

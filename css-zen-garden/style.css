@@ -1,0 +1,74 @@
+body{
+    font-family:'Libre Baskerville', serif;
+    color: rgb(65, 61, 61);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 15% auto auto auto 33% 20%;
+    grid-template-areas:
+        "h h v"
+        "i i a"
+        "p p l"
+        "r r e"
+        "f f f"
+        "fl fl fl";
+
+}
+.title-banner{
+    grid-area: h;
+    color: white;
+    background-color: beige;
+    text-align: center;
+    padding: auto;
+}
+.title-banner h1{
+    padding-top: 40px;
+}
+.view-designs{
+    grid-area: v;
+}
+.intro{
+    grid-area: i;
+
+}
+.authors{
+    grid-area: a;
+}
+.participation{
+    grid-area: p;
+}
+.links{
+    grid-area: l;
+}
+.requirements{
+    grid-area: r;
+}
+.empty-space{
+    grid-area: e;
+}
+.footer{
+    grid-area: f;
+}
+.footer-links{
+    grid-area: fl;
+}
+.container > div{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        grid-template-areas:
+        "h h h"
+        "v v v"
+        "i i i"
+        "p p p"
+        "r r r"
+        "f f f"
+        "fl fl fl"
+        "a a a"
+        "l l l";
+        grid-template-rows: auto;
+    }
+}

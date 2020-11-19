@@ -50,8 +50,8 @@ const people = [
     }
 ];
 function namesOnly(arr){
-    return arr.map(name =>{
-        return name.name;
+    return arr.map(obj =>{
+        return obj.name;
     })
 }
 console.log(namesOnly(people));
