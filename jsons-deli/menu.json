@@ -1,0 +1,78 @@
+{
+    "appetizers": [
+        {
+            "name": "Hummus",
+            "ingredients": ["salt", "water", "hummus"],
+            "description": "A piece of pita bread and some hummus."
+        },
+        {
+            "name": "Chips",
+            "ingredients": ["salt", "water", "potatoes"],
+            "description": "A bag of thinly sliced potatoes"
+        }
+    ],
+    "cold sandwhiches": [
+        {
+            
+            "name": "BLT",
+            "ingredients": ["bacon", "lettuce", "tomato"],
+            "description": "Bacon, lettuce, and tomatoe on bread"
+        
+        },
+        {
+            
+            "name": "Italian",
+            "ingredients": ["salami", "lettuce", "tomato","parsley"],
+            "description": "A sandwhich made the 'Italian' way"
+        
+        }
+    ],
+    "hot sandwhiches": [
+        {
+            "name": "Meatball",
+            "ingredients": ["Meat", "Ball", "Bread"],
+            "description": "A sandwhich with meatballs"
+        },
+        {
+            
+            "name": "Philly",
+            "ingredients": ["Steak", "lettuce", "tomato", "cheese","peppers"],
+            "description": "A sandwhich with beef and cheese"
+        }
+    ],
+    "desserts": [
+        {
+            
+            "name": "Cake",
+            "ingredients": ["Flour", "Milk", "Sugar", "Chocolate"],
+            "description": "A cake with chocolate"
+        
+        },
+        {
+            
+            "name": "Cookie",
+            "ingredients": ["Milk", "Flour", "Chocolate chips"],
+            "description": "A delicious chocolate chip cookie"
+        
+        }
+       
+    ],
+    "drinks": [
+        {
+            
+            "name": "Water",
+            "ingredients": ["water", "electroltes", "tomato"],
+            "description": "Bacon, lettuce, and tomatoe on bread"
+        
+        },
+        {
+            
+            "name": "milk",
+            "ingredients": ["milk"],
+            "description": "2% milk"
+        
+        }
+    ]
+    
+
+}

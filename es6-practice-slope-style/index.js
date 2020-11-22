@@ -15,7 +15,7 @@ console.log(combineFruit(["apple", "pear"],
 ["carrot"]));
 
 
-//object drestructuring
+//object destructuring
 const vacation = {  
     location: "Burly Idaho",
     duration: "2 weeks"
@@ -77,11 +77,11 @@ console.log(unshift(["Hi","There"], 3, 4, 5, 6));
 // ...............................................Level 4
 function populatePeople(names){
     return names.map(function(name){
-        name = name.split(" ");
-            let firstName = name[0];
-            let lastName = name[1];
+        const [firstName, lastName] = name.split(" ");
+            
         return {firstName, lastName};
     })
 }
 
 console.log(populatePeople(["Frank Peterson", "Suzy Degual", "Liza Jones"]));
+

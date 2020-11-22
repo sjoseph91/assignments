@@ -1,3 +1,4 @@
+
 body{
     font-family:'Libre Baskerville', serif;
     color: rgb(65, 61, 61);
@@ -5,7 +6,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 15% auto auto auto 33% 20%;
+    grid-template-rows: 250px auto auto auto 250px 100px;
     grid-template-areas:
         "h h v"
         "i i a"
@@ -15,47 +16,109 @@ body{
         "fl fl fl";
 
 }
+.container > div{
+    margin-left: 10%;
+}
 .title-banner{
     grid-area: h;
     color: white;
     background-color: beige;
     text-align: center;
     padding: auto;
+    margin-left: 0px !important;
+    background-color: #114c38;
 }
 .title-banner h1{
     padding-top: 40px;
 }
 .view-designs{
     grid-area: v;
+    background-color: #172722;
+    color: white;
+    text-align: center;
+    margin-left: 0% !important;
 }
+.view-designs p{
+    padding: auto;
+}
+
 .intro{
     grid-area: i;
 
 }
 .authors{
     grid-area: a;
+    margin-left: 0px !important;
+    background-color: #e5ede8;
 }
+.authors div{
+    margin-left: 15%;
+}
+
 .participation{
     grid-area: p;
+    background-color: rgba(138,188,159,0.5);
 }
 .links{
     grid-area: l;
+    background-color: rgba(95, 145, 116, 0.5);
+    margin-left: 0px !important;
+
+}
+.links div{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .requirements{
     grid-area: r;
 }
 .empty-space{
     grid-area: e;
+    margin-left: 0px !important;
+    background-color: #e5ede8;
 }
 .footer{
     grid-area: f;
+    background-color: #114c38;
+    margin-left: 0px !important;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .footer-links{
     grid-area: fl;
+    background-color: #134347;
+    margin-left: 0px !important;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: auto;
+
+    
 }
-.container > div{
-    margin-left: 10%;
+@font-face{
+    font-family: iconFont;
+    src: url("http://www.csszengarden.com/214/verdemoderna.woff");
 }
+.footer-links a{
+    color: white;
+    font-family: iconFont
+}
+.icon1{content: "5"};
+.icon2{content: "3"};
+.icon3{content: "c"};
+.icon4{content: "a"};
+.icon5{content: "g"};
+
+
+
 
 @media only screen and (max-width: 700px){
     .container{
@@ -69,6 +132,6 @@ body{
         "fl fl fl"
         "a a a"
         "l l l";
-        grid-template-rows: auto;
+        grid-template-rows: 250px 50px auto auto auto 250px 100px auto auto;
     }
 }
