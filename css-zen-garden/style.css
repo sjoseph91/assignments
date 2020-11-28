@@ -103,25 +103,27 @@ body{
 
     
 }
-@font-face{
+/* @font-face{
     font-family: iconFont;
     src: url("http://www.csszengarden.com/214/verdemoderna.woff");
-}
+} */
 .footer-links a{
     color: white;
-    font-family: iconFont
+    font-family: iconFont;
 }
-.icon1{content: "5"};
-.icon2{content: "3"};
-.icon3{content: "c"};
-.icon4{content: "a"};
-.icon5{content: "g"};
+.icon1{content: "5"}
+.icon2{content: "3"}
+.icon3{content: "c"}
+.icon4{content: "a"}
+.icon5{content: "g"}
 
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1500px){
+    
     .container{
+        grid-template-rows: 250px 50px auto auto auto 250px 100px auto auto;
         grid-template-areas:
         "h h h"
         "v v v"
@@ -132,6 +134,6 @@ body{
         "fl fl fl"
         "a a a"
         "l l l";
-        grid-template-rows: 250px 50px auto auto auto 250px 100px auto auto;
+        
     }
 }

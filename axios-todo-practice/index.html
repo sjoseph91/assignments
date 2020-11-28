@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <form name="toDoForm">
+        Add new To Do item: <br>
+        Title: <input type="text" name="title" required/><br>
+        Price: <input type="number" name="price"><br>
+        Description: <input name="description"/><br>
+        Img URL: <input type="url" name="url"/><br>
+        <button type="submit">Add Item </button>
+    </form>
+    <div>
+        <button id="update">Update</button>
+    </div>
+    <div id="toDoItems">
+        
+        TODO ITEMS
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
