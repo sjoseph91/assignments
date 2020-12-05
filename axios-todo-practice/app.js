@@ -1,8 +1,7 @@
-//get todo from api on screeen load
-
-
 
 const baseURL = "https://api.vschool.io/seanjo/todo/";
+
+//get todo from api on screeen load
 displayToDoList();
 
 
@@ -60,7 +59,7 @@ function displayToDoList(){
                 document.querySelector("#toDoItems").appendChild(newTodo);
                
             })
-            
+            //Add event listener for clicking completed checkbox
             document.querySelectorAll("#toDoItems input").forEach(element =>{
                 element.addEventListener("click", e =>{
                     let id = e.target.getAttribute("id")
@@ -129,11 +128,12 @@ function createToDo(data){
     checkBox.innerText ="Completed?";
 
     const newP = document.createElement("p");
+    newP.innerText = data.title;
 
     const newImg = document.createElement("img");
     newImg.setAttribute("src", data.imgUrl)
     newImg.setAttribute("width", "100px");
-    newP.innerText = data.title;
+    
     
     if (data.completed){
         newP.innerHTML = `<s>${data.title}</s>`;
