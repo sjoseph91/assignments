@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+
+
+.friends-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.friend{
+    
+    background-color: rgb(220, 219, 226);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.name{
+    text-align: center;
+    text-emphasis: bold;
+}
+.age{
+    text-align: center;
+}
