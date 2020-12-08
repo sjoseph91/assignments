@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(177, 174, 174);
+}
+.dice-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 20%;
+    height: 200px;
+    background-color: rgb(243, 244, 245);
+    text-align: center;
+    
+    
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 1000;
+}

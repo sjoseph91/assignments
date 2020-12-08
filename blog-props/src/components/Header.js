@@ -5,8 +5,8 @@ function Header(){
     return (
         <div className="header">
             <Navbar/>
-            <h1>Wellness Wannabe</h1>
-            <h2>by Joseina </h2>
+            <h1>Clean Blog</h1>
+            <h2>A Blog Theme by Start Bootstrap </h2>
         </div>
     )
 }

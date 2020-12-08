@@ -1,0 +1,17 @@
+.square-container{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 350px 350px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-items: space-evenly;
+ 
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.square{
+    background-color: red;
+    border: 2px solid black;
+}
