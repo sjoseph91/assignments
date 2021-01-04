@@ -1,0 +1,55 @@
+
+
+
+nav {
+  margin-top: 0;
+  height: 10vh;
+  text-align: center;
+}
+
+.signupButton{
+  background-color: green;
+  color: white;
+}
+
+.article-container{
+  height: 20vh;
+  margin: 10px;
+}
+
+.article-container img{
+  float: left;
+  height: inherit;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer{
+  height: 20vh;
+  text-align: center;
+}
+a{
+  padding: 20px;
+  color: grey;
+}
+
+.light-theme{
+  background-color: rgb(188, 212, 248);
+  color: white;
+}
+.dark-theme{
+  background-color:rgb(3, 34, 82);
+  color: purple;
+}
+.default-theme {
+  background-color: white;
+  color: black;
+}
+.sepia-theme {
+  background-color:rgb(199 130 22 / 93%);
+  color:rgb(27, 16, 2)
+}
