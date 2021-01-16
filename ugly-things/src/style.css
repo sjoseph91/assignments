@@ -1,0 +1,41 @@
+.form-container {
+    height: 200px;
+    font-size: 20px;
+    background-color: rgb(98, 98, 190);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#submit-button {
+    height: 50px;
+    width: 150px;
+
+}
+.tile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.tile button {
+    width: 100px;
+    height: 40px;
+}
+.tile-image {
+    width: 200px;
+    height: inherit;
+}
+.tile-text {
+    padding: 10px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+}
